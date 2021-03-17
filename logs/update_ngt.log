@@ -1,0 +1,1035 @@
+2021-03-16 22:48:34,466 - WARNING - 
+2021-03-16 22:48:34,466 - WARNING - Initializing Execution...
+2021-03-16 22:48:34,467 - WARNING - 
+2021-03-16 22:48:54,133 - WARNING - 
+2021-03-16 22:48:54,134 - WARNING - Initializing Execution...
+2021-03-16 22:48:54,134 - WARNING - 
+2021-03-16 22:48:59,715 - WARNING - 
+2021-03-16 22:48:59,716 - WARNING - End Execution...
+2021-03-16 22:48:59,716 - WARNING - 
+2021-03-16 22:53:47,391 - WARNING - 
+2021-03-16 22:53:47,392 - WARNING - Initializing Execution...
+2021-03-16 22:53:47,392 - WARNING - 
+2021-03-16 22:53:47,395 - DEBUG - starting thread (client mode): 0xc69ec460
+2021-03-16 22:53:47,395 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 22:53:47,487 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 22:53:47,488 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 22:53:47,494 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 22:53:47,494 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 22:53:47,495 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 22:53:47,496 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 22:53:47,496 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 22:53:47,496 - DEBUG - Compression agreed: none
+2021-03-16 22:53:47,514 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 22:53:47,516 - DEBUG - Switch to new keys ...
+2021-03-16 22:53:47,518 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 22:53:47,523 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 22:53:47,555 - DEBUG - userauth is OK
+2021-03-16 22:53:47,591 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 22:53:47,592 - INFO - Authentication (publickey) successful!
+2021-03-16 22:53:47,595 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 22:53:47,810 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 22:53:47,811 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 22:53:47,812 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 22:53:47,813 - DEBUG - Secsh channel 0 opened.
+2021-03-16 22:53:47,818 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 22:53:52,652 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 22:53:52,653 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 22:53:52,654 - DEBUG - Total Alerts: 64
+2021-03-16 22:53:52,654 - WARNING - 
+2021-03-16 22:53:52,654 - WARNING - End Execution...
+2021-03-16 22:53:52,654 - WARNING - 
+2021-03-16 22:54:45,876 - WARNING - 
+2021-03-16 22:54:45,877 - WARNING - Initializing Execution...
+2021-03-16 22:54:45,877 - WARNING - 
+2021-03-16 22:54:51,351 - WARNING - 
+2021-03-16 22:54:51,351 - WARNING - End Execution...
+2021-03-16 22:54:51,351 - WARNING - 
+2021-03-16 23:09:35,784 - WARNING - 
+2021-03-16 23:09:35,785 - WARNING - Initializing Execution...
+2021-03-16 23:09:35,785 - WARNING - 
+2021-03-16 23:09:35,788 - DEBUG - starting thread (client mode): 0x9caa0460
+2021-03-16 23:09:35,788 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:09:35,857 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:09:35,858 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:09:35,864 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:09:35,865 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:09:35,865 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:09:35,866 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:09:35,866 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:09:35,867 - DEBUG - Compression agreed: none
+2021-03-16 23:09:35,889 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:09:35,891 - DEBUG - Switch to new keys ...
+2021-03-16 23:09:35,893 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:09:35,896 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:09:35,929 - DEBUG - userauth is OK
+2021-03-16 23:09:35,949 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:09:35,949 - INFO - Authentication (publickey) successful!
+2021-03-16 23:09:35,950 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:09:36,148 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:09:36,148 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:09:36,192 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:09:36,192 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:09:36,198 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:09:41,346 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:09:41,346 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:09:41,351 - DEBUG - Total Alerts: 64
+2021-03-16 23:09:41,351 - WARNING - 
+2021-03-16 23:09:41,352 - WARNING - End Execution...
+2021-03-16 23:09:41,353 - WARNING - 
+2021-03-16 23:17:52,659 - WARNING - 
+2021-03-16 23:17:52,659 - WARNING - Initializing Execution...
+2021-03-16 23:17:52,659 - WARNING - 
+2021-03-16 23:17:52,662 - DEBUG - starting thread (client mode): 0xdb800460
+2021-03-16 23:17:52,663 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:17:52,750 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:17:52,751 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:17:52,757 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:17:52,757 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:17:52,758 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:17:52,759 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:17:52,759 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:17:52,760 - DEBUG - Compression agreed: none
+2021-03-16 23:17:52,777 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:17:52,779 - DEBUG - Switch to new keys ...
+2021-03-16 23:17:52,782 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:17:52,786 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:17:52,818 - DEBUG - userauth is OK
+2021-03-16 23:17:52,855 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:17:52,856 - INFO - Authentication (publickey) successful!
+2021-03-16 23:17:52,858 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:17:53,040 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:17:53,040 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:17:53,043 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:17:53,044 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:17:53,050 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:17:57,729 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:17:57,730 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:17:57,731 - DEBUG - Total Alerts: 64
+2021-03-16 23:17:57,731 - WARNING - 
+2021-03-16 23:17:57,731 - WARNING - End Execution...
+2021-03-16 23:17:57,732 - WARNING - 
+2021-03-16 23:18:17,441 - WARNING - 
+2021-03-16 23:18:17,441 - WARNING - Initializing Execution...
+2021-03-16 23:18:17,441 - WARNING - 
+2021-03-16 23:18:17,444 - DEBUG - starting thread (client mode): 0x5eec0460
+2021-03-16 23:18:17,445 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:18:17,513 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:18:17,514 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:18:17,519 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:18:17,520 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:18:17,521 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:18:17,521 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:18:17,522 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:18:17,522 - DEBUG - Compression agreed: none
+2021-03-16 23:18:17,540 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:18:17,542 - DEBUG - Switch to new keys ...
+2021-03-16 23:18:17,545 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:18:17,549 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:18:17,582 - DEBUG - userauth is OK
+2021-03-16 23:18:17,618 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:18:17,619 - INFO - Authentication (publickey) successful!
+2021-03-16 23:18:17,621 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:18:17,813 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:18:17,814 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:18:17,856 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:18:17,856 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:18:17,863 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:18:22,613 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:18:22,614 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:18:22,617 - DEBUG - Total Alerts: 64
+2021-03-16 23:18:22,618 - WARNING - 
+2021-03-16 23:18:22,618 - WARNING - End Execution...
+2021-03-16 23:18:22,618 - WARNING - 
+2021-03-16 23:19:10,945 - WARNING - 
+2021-03-16 23:19:10,945 - WARNING - Initializing Execution...
+2021-03-16 23:19:10,945 - WARNING - 
+2021-03-16 23:19:10,948 - DEBUG - starting thread (client mode): 0xf80e4460
+2021-03-16 23:19:10,948 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:19:11,039 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:19:11,039 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:19:11,045 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:19:11,046 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:19:11,047 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:19:11,048 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:19:11,048 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:19:11,049 - DEBUG - Compression agreed: none
+2021-03-16 23:19:11,058 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:19:11,059 - DEBUG - Switch to new keys ...
+2021-03-16 23:19:11,060 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:19:11,061 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:19:11,099 - DEBUG - userauth is OK
+2021-03-16 23:19:11,138 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:19:11,139 - INFO - Authentication (publickey) successful!
+2021-03-16 23:19:11,142 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:19:11,342 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:19:11,342 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:19:11,344 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:19:11,345 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:19:11,351 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:19:16,322 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:19:16,323 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:19:16,325 - DEBUG - Total Alerts: 64
+2021-03-16 23:19:41,152 - WARNING - 
+2021-03-16 23:19:41,152 - WARNING - Initializing Execution...
+2021-03-16 23:19:41,153 - WARNING - 
+2021-03-16 23:19:41,156 - DEBUG - starting thread (client mode): 0x2de5c460
+2021-03-16 23:19:41,156 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:19:41,235 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:19:41,235 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:19:41,241 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:19:41,241 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:19:41,242 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:19:41,243 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:19:41,243 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:19:41,244 - DEBUG - Compression agreed: none
+2021-03-16 23:19:41,251 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:19:41,252 - DEBUG - Switch to new keys ...
+2021-03-16 23:19:41,253 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:19:41,255 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:19:41,292 - DEBUG - userauth is OK
+2021-03-16 23:19:41,330 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:19:41,331 - INFO - Authentication (publickey) successful!
+2021-03-16 23:19:41,333 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:19:41,556 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:19:41,556 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:19:41,600 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:19:41,600 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:19:41,608 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:19:46,394 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:19:46,394 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:19:46,396 - DEBUG - Total Alerts: 64
+2021-03-16 23:21:26,582 - WARNING - 
+2021-03-16 23:21:26,583 - WARNING - Initializing Execution...
+2021-03-16 23:21:26,583 - WARNING - 
+2021-03-16 23:21:26,586 - DEBUG - starting thread (client mode): 0x954d9460
+2021-03-16 23:21:26,586 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:21:26,676 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:21:26,676 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:21:26,682 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:21:26,682 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:21:26,683 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:21:26,683 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:21:26,684 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:21:26,684 - DEBUG - Compression agreed: none
+2021-03-16 23:21:26,692 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:21:26,693 - DEBUG - Switch to new keys ...
+2021-03-16 23:21:26,694 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:21:26,695 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:21:26,733 - DEBUG - userauth is OK
+2021-03-16 23:21:26,767 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:21:26,768 - INFO - Authentication (publickey) successful!
+2021-03-16 23:21:26,771 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:21:26,951 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:21:26,951 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:21:26,953 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:21:26,954 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:21:26,959 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:21:31,643 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:21:31,643 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:21:31,645 - DEBUG - Total Alerts: 64
+2021-03-16 23:21:31,647 - DEBUG - starting thread (client mode): 0x954d9310
+2021-03-16 23:21:31,647 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:21:31,751 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:21:31,751 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:21:31,755 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:21:31,756 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:21:31,756 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:21:31,757 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:21:31,757 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:21:31,758 - DEBUG - Compression agreed: none
+2021-03-16 23:21:31,770 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:21:31,772 - DEBUG - Switch to new keys ...
+2021-03-16 23:21:31,773 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:21:31,776 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:21:31,811 - DEBUG - userauth is OK
+2021-03-16 23:21:31,846 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:21:31,847 - INFO - Authentication (publickey) successful!
+2021-03-16 23:21:31,848 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:21:32,031 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:21:32,031 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:21:32,031 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:21:32,031 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:21:32,034 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:21:36,583 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:21:36,584 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:22:48,911 - WARNING - 
+2021-03-16 23:22:48,911 - WARNING - Initializing Execution...
+2021-03-16 23:22:48,911 - WARNING - 
+2021-03-16 23:22:48,915 - DEBUG - starting thread (client mode): 0x4a2ea460
+2021-03-16 23:22:48,915 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:22:48,989 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:22:48,990 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:22:48,996 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:22:48,996 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:22:48,997 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:22:48,998 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:22:48,998 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:22:48,999 - DEBUG - Compression agreed: none
+2021-03-16 23:22:49,016 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:22:49,018 - DEBUG - Switch to new keys ...
+2021-03-16 23:22:49,021 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:22:49,025 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:22:49,057 - DEBUG - userauth is OK
+2021-03-16 23:22:49,100 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:22:49,102 - INFO - Authentication (publickey) successful!
+2021-03-16 23:22:49,104 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:22:49,299 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:22:49,300 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:22:49,339 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:22:49,340 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:22:49,346 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:22:54,298 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:22:54,300 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:22:54,306 - DEBUG - Total Alerts: 64
+2021-03-16 23:22:54,310 - DEBUG - starting thread (client mode): 0x4a304bb0
+2021-03-16 23:22:54,311 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:22:54,391 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:22:54,392 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:22:54,396 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:22:54,396 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:22:54,397 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:22:54,397 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:22:54,398 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:22:54,398 - DEBUG - Compression agreed: none
+2021-03-16 23:22:54,411 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:22:54,412 - DEBUG - Switch to new keys ...
+2021-03-16 23:22:54,414 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:22:54,417 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:22:54,452 - DEBUG - userauth is OK
+2021-03-16 23:22:54,489 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:22:54,490 - INFO - Authentication (publickey) successful!
+2021-03-16 23:22:54,491 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:22:54,670 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:22:54,670 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:22:54,671 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:22:54,671 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:22:54,676 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:22:59,488 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:22:59,488 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:27:05,744 - WARNING - 
+2021-03-16 23:27:05,744 - WARNING - Initializing Execution...
+2021-03-16 23:27:05,744 - WARNING - 
+2021-03-16 23:27:05,747 - DEBUG - starting thread (client mode): 0xd499520
+2021-03-16 23:27:05,748 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:27:05,839 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:27:05,840 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:27:05,846 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:27:05,846 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:27:05,847 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:27:05,848 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:27:05,848 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:27:05,849 - DEBUG - Compression agreed: none
+2021-03-16 23:27:05,855 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:27:05,856 - DEBUG - Switch to new keys ...
+2021-03-16 23:27:05,856 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:27:05,858 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:27:05,896 - DEBUG - userauth is OK
+2021-03-16 23:27:05,933 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:27:05,934 - INFO - Authentication (publickey) successful!
+2021-03-16 23:27:05,936 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:27:06,136 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:27:06,137 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:27:06,180 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:27:06,180 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:27:06,186 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:27:11,089 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:27:11,090 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:27:11,095 - DEBUG - Total Alerts: 64
+2021-03-16 23:27:18,123 - DEBUG - starting thread (client mode): 0xcc5e640
+2021-03-16 23:27:18,124 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:27:18,204 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:27:18,204 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:27:18,208 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:27:18,209 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:27:18,209 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:27:18,210 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:27:18,210 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:27:18,210 - DEBUG - Compression agreed: none
+2021-03-16 23:27:18,216 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:27:18,217 - DEBUG - Switch to new keys ...
+2021-03-16 23:27:18,217 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:27:18,219 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:27:18,256 - DEBUG - userauth is OK
+2021-03-16 23:27:18,292 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:27:18,293 - INFO - Authentication (publickey) successful!
+2021-03-16 23:27:18,294 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:27:18,495 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:27:18,495 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:27:18,496 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:27:18,497 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:27:18,502 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:27:23,327 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:27:23,329 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:29:47,116 - WARNING - 
+2021-03-16 23:29:47,116 - WARNING - Initializing Execution...
+2021-03-16 23:29:47,116 - WARNING - 
+2021-03-16 23:29:47,120 - DEBUG - starting thread (client mode): 0x6f918520
+2021-03-16 23:29:47,120 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:29:47,190 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:29:47,190 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:29:47,192 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:29:47,192 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:29:47,192 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:29:47,192 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:29:47,192 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:29:47,193 - DEBUG - Compression agreed: none
+2021-03-16 23:29:47,201 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:29:47,202 - DEBUG - Switch to new keys ...
+2021-03-16 23:29:47,203 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:29:47,204 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:29:47,241 - DEBUG - userauth is OK
+2021-03-16 23:29:47,263 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:29:47,263 - INFO - Authentication (publickey) successful!
+2021-03-16 23:29:47,264 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:29:47,435 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:29:47,435 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:29:47,476 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:29:47,476 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:29:47,482 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:29:52,272 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:29:52,273 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:29:52,274 - DEBUG - Total Alerts: 64
+2021-03-16 23:29:52,277 - DEBUG - starting thread (client mode): 0x6f9184f0
+2021-03-16 23:29:52,277 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:29:52,361 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:29:52,361 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:29:52,363 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:29:52,364 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:29:52,364 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:29:52,364 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:29:52,365 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:29:52,365 - DEBUG - Compression agreed: none
+2021-03-16 23:29:52,377 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:29:52,378 - DEBUG - Switch to new keys ...
+2021-03-16 23:29:52,379 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:29:52,381 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:29:52,418 - DEBUG - userauth is OK
+2021-03-16 23:29:52,454 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:29:52,455 - INFO - Authentication (publickey) successful!
+2021-03-16 23:29:52,456 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:29:52,626 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:29:52,626 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:29:52,667 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:29:52,668 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:29:52,674 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:29:57,198 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:29:57,199 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:30:44,887 - WARNING - 
+2021-03-16 23:30:44,888 - WARNING - Initializing Execution...
+2021-03-16 23:30:44,888 - WARNING - 
+2021-03-16 23:30:44,891 - DEBUG - starting thread (client mode): 0x96800520
+2021-03-16 23:30:44,891 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:30:44,972 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:30:44,972 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:30:44,975 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:30:44,975 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:30:44,976 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:30:44,976 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:30:44,976 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:30:44,976 - DEBUG - Compression agreed: none
+2021-03-16 23:30:44,984 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:30:44,985 - DEBUG - Switch to new keys ...
+2021-03-16 23:30:44,986 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:30:44,987 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:30:45,024 - DEBUG - userauth is OK
+2021-03-16 23:30:45,059 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:30:45,060 - INFO - Authentication (publickey) successful!
+2021-03-16 23:30:45,062 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:30:45,252 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:30:45,252 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:30:45,295 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:30:45,296 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:30:45,302 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:30:50,266 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:30:50,266 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:30:50,267 - DEBUG - Total Alerts: 64
+2021-03-16 23:30:50,269 - DEBUG - starting thread (client mode): 0x96800d90
+2021-03-16 23:30:50,269 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:30:50,363 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:30:50,363 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:30:50,367 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:30:50,367 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:30:50,368 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:30:50,369 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:30:50,369 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:30:50,370 - DEBUG - Compression agreed: none
+2021-03-16 23:30:50,383 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:30:50,384 - DEBUG - Switch to new keys ...
+2021-03-16 23:30:50,386 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:30:50,389 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:30:50,424 - DEBUG - userauth is OK
+2021-03-16 23:30:50,462 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:30:50,463 - INFO - Authentication (publickey) successful!
+2021-03-16 23:30:50,464 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:30:50,677 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:30:50,677 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:30:50,678 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:30:50,679 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:30:50,684 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:30:55,578 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:30:55,578 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:32:38,011 - WARNING - 
+2021-03-16 23:32:38,011 - WARNING - End Execution...
+2021-03-16 23:32:38,012 - WARNING - 
+2021-03-16 23:36:45,679 - WARNING - 
+2021-03-16 23:36:45,679 - WARNING - Initializing Execution...
+2021-03-16 23:36:45,679 - WARNING - 
+2021-03-16 23:36:45,682 - DEBUG - starting thread (client mode): 0xfedfc4f0
+2021-03-16 23:36:45,683 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:36:45,766 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:36:45,766 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:36:45,772 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:36:45,773 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:36:45,774 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:36:45,774 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:36:45,775 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:36:45,775 - DEBUG - Compression agreed: none
+2021-03-16 23:36:45,793 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:36:45,795 - DEBUG - Switch to new keys ...
+2021-03-16 23:36:45,797 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:36:45,801 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:36:45,834 - DEBUG - userauth is OK
+2021-03-16 23:36:45,871 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:36:45,872 - INFO - Authentication (publickey) successful!
+2021-03-16 23:36:45,873 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:36:46,080 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:36:46,081 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:36:46,124 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:36:46,124 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:36:46,131 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:36:51,105 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:36:51,106 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:36:51,107 - DEBUG - Total Alerts: 64
+2021-03-16 23:36:51,107 - ERROR - Invalid getVMData call: vmID and vmName is blank !
+2021-03-16 23:37:25,479 - WARNING - 
+2021-03-16 23:37:25,479 - WARNING - Initializing Execution...
+2021-03-16 23:37:25,479 - WARNING - 
+2021-03-16 23:37:25,483 - DEBUG - starting thread (client mode): 0xe22af550
+2021-03-16 23:37:25,483 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:37:25,554 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:37:25,555 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:37:25,557 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:37:25,557 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:37:25,557 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:37:25,557 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:37:25,558 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:37:25,558 - DEBUG - Compression agreed: none
+2021-03-16 23:37:25,564 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:37:25,565 - DEBUG - Switch to new keys ...
+2021-03-16 23:37:25,566 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:37:25,567 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:37:25,606 - DEBUG - userauth is OK
+2021-03-16 23:37:25,643 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:37:25,644 - INFO - Authentication (publickey) successful!
+2021-03-16 23:37:25,646 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:37:25,847 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:37:25,847 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:37:25,849 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:37:25,849 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:37:25,855 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:37:30,635 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:37:30,635 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:37:30,637 - DEBUG - Total Alerts: 64
+2021-03-16 23:37:30,637 - ERROR - Invalid getVMData call: vmID and vmName is blank !
+2021-03-16 23:38:28,548 - WARNING - 
+2021-03-16 23:38:28,549 - WARNING - Initializing Execution...
+2021-03-16 23:38:28,549 - WARNING - 
+2021-03-16 23:38:28,552 - DEBUG - starting thread (client mode): 0xbae38640
+2021-03-16 23:38:28,553 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:38:28,643 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:38:28,644 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:38:28,650 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:38:28,651 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:38:28,652 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:38:28,652 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:38:28,653 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:38:28,653 - DEBUG - Compression agreed: none
+2021-03-16 23:38:28,660 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:38:28,661 - DEBUG - Switch to new keys ...
+2021-03-16 23:38:28,662 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:38:28,663 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:38:28,701 - DEBUG - userauth is OK
+2021-03-16 23:38:28,738 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:38:28,739 - INFO - Authentication (publickey) successful!
+2021-03-16 23:38:28,741 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:38:28,941 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:38:28,941 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:38:28,984 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:38:28,984 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:38:28,992 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:38:33,603 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:38:33,604 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:38:33,608 - DEBUG - Total Alerts: 64
+2021-03-16 23:40:36,862 - WARNING - 
+2021-03-16 23:40:36,862 - WARNING - Initializing Execution...
+2021-03-16 23:40:36,865 - WARNING - 
+2021-03-16 23:40:36,869 - DEBUG - starting thread (client mode): 0x2fa71640
+2021-03-16 23:40:36,870 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:40:36,944 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:40:36,944 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:40:36,951 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:40:36,952 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:40:36,952 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:40:36,953 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:40:36,954 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:40:36,954 - DEBUG - Compression agreed: none
+2021-03-16 23:40:36,961 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:40:36,962 - DEBUG - Switch to new keys ...
+2021-03-16 23:40:36,963 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:40:36,964 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:40:37,002 - DEBUG - userauth is OK
+2021-03-16 23:40:37,036 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:40:37,037 - INFO - Authentication (publickey) successful!
+2021-03-16 23:40:37,039 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:40:37,240 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:40:37,240 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:40:37,241 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:40:37,242 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:40:37,247 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:40:42,127 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:40:42,127 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:40:42,131 - DEBUG - Total Alerts: 64
+2021-03-16 23:41:02,605 - DEBUG - starting thread (client mode): 0x2f238850
+2021-03-16 23:41:02,606 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:41:02,688 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:41:02,688 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:41:02,692 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:41:02,693 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:41:02,693 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:41:02,694 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:41:02,695 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:41:02,695 - DEBUG - Compression agreed: none
+2021-03-16 23:41:02,708 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:41:02,710 - DEBUG - Switch to new keys ...
+2021-03-16 23:41:02,712 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:41:02,714 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:41:02,749 - DEBUG - userauth is OK
+2021-03-16 23:41:02,785 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:41:02,786 - INFO - Authentication (publickey) successful!
+2021-03-16 23:41:02,787 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:41:02,976 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:41:02,976 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:41:03,020 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:41:03,020 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:41:03,027 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:41:07,902 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:41:07,902 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:49:37,401 - WARNING - 
+2021-03-16 23:49:37,401 - WARNING - Initializing Execution...
+2021-03-16 23:49:37,401 - WARNING - 
+2021-03-16 23:49:37,404 - DEBUG - starting thread (client mode): 0xb2de1640
+2021-03-16 23:49:37,405 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:49:37,489 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:49:37,489 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:49:37,495 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:49:37,495 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:49:37,496 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:49:37,497 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:49:37,497 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:49:37,498 - DEBUG - Compression agreed: none
+2021-03-16 23:49:37,505 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:49:37,506 - DEBUG - Switch to new keys ...
+2021-03-16 23:49:37,507 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:49:37,508 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:49:37,546 - DEBUG - userauth is OK
+2021-03-16 23:49:37,584 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:49:37,585 - INFO - Authentication (publickey) successful!
+2021-03-16 23:49:37,588 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:49:37,791 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:49:37,792 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:49:37,793 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:49:37,793 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:49:37,799 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:49:42,755 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:49:42,756 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:49:51,066 - DEBUG - Total Alerts: 64
+2021-03-16 23:49:51,071 - DEBUG - starting thread (client mode): 0xb25a8880
+2021-03-16 23:49:51,072 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:49:51,174 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:49:51,174 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:49:51,178 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:49:51,179 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:49:51,179 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:49:51,180 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:49:51,180 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:49:51,181 - DEBUG - Compression agreed: none
+2021-03-16 23:49:51,193 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:49:51,195 - DEBUG - Switch to new keys ...
+2021-03-16 23:49:51,197 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:49:51,199 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:49:51,234 - DEBUG - userauth is OK
+2021-03-16 23:49:51,269 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:49:51,270 - INFO - Authentication (publickey) successful!
+2021-03-16 23:49:51,272 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:49:51,462 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:49:51,462 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:49:51,504 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:49:51,505 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:49:51,511 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:49:56,268 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:49:56,268 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:51:12,949 - WARNING - 
+2021-03-16 23:51:12,949 - WARNING - Initializing Execution...
+2021-03-16 23:51:12,949 - WARNING - 
+2021-03-16 23:51:12,953 - DEBUG - starting thread (client mode): 0x2c098490
+2021-03-16 23:51:12,953 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:51:13,031 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:51:13,031 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:51:13,037 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:51:13,038 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:51:13,038 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:51:13,039 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:51:13,039 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:51:13,040 - DEBUG - Compression agreed: none
+2021-03-16 23:51:13,058 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:51:13,060 - DEBUG - Switch to new keys ...
+2021-03-16 23:51:13,062 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:51:13,067 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:51:13,099 - DEBUG - userauth is OK
+2021-03-16 23:51:13,123 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:51:13,123 - INFO - Authentication (publickey) successful!
+2021-03-16 23:51:13,125 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:51:13,313 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:51:13,313 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:51:13,356 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:51:13,356 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:51:13,362 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:51:18,161 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:51:18,162 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:51:18,166 - DEBUG - Total Alerts: 64
+2021-03-16 23:51:18,170 - DEBUG - starting thread (client mode): 0x2c0b19d0
+2021-03-16 23:51:18,171 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:51:18,254 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:51:18,255 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:51:18,259 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:51:18,259 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:51:18,260 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:51:18,260 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:51:18,261 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:51:18,261 - DEBUG - Compression agreed: none
+2021-03-16 23:51:18,275 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:51:18,276 - DEBUG - Switch to new keys ...
+2021-03-16 23:51:18,278 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:51:18,280 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:51:18,316 - DEBUG - userauth is OK
+2021-03-16 23:51:18,352 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:51:18,352 - INFO - Authentication (publickey) successful!
+2021-03-16 23:51:18,353 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:51:18,549 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:51:18,550 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:51:18,551 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:51:18,551 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:51:18,556 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:51:23,253 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:51:23,254 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:51:23,257 - WARNING - 
+2021-03-16 23:51:23,257 - WARNING - End Execution...
+2021-03-16 23:51:23,257 - WARNING - 
+2021-03-16 23:53:00,610 - WARNING - 
+2021-03-16 23:53:00,610 - WARNING - Initializing Execution...
+2021-03-16 23:53:00,610 - WARNING - 
+2021-03-16 23:53:00,614 - DEBUG - starting thread (client mode): 0x4dd4d490
+2021-03-16 23:53:00,614 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:53:00,690 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:53:00,690 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:53:00,696 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:53:00,697 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:53:00,697 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:53:00,698 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:53:00,698 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:53:00,699 - DEBUG - Compression agreed: none
+2021-03-16 23:53:00,707 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:53:00,708 - DEBUG - Switch to new keys ...
+2021-03-16 23:53:00,709 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:53:00,710 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:53:00,748 - DEBUG - userauth is OK
+2021-03-16 23:53:00,786 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:53:00,788 - INFO - Authentication (publickey) successful!
+2021-03-16 23:53:00,790 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:53:00,965 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:53:00,965 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:53:01,007 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:53:01,007 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:53:01,011 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:53:05,942 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:53:05,942 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:53:05,944 - DEBUG - Total Alerts: 64
+2021-03-16 23:53:05,946 - DEBUG - starting thread (client mode): 0x4dd659d0
+2021-03-16 23:53:05,946 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-16 23:53:06,033 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-16 23:53:06,033 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-16 23:53:06,037 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-16 23:53:06,037 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-16 23:53:06,038 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-16 23:53:06,038 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-16 23:53:06,039 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-16 23:53:06,039 - DEBUG - Compression agreed: none
+2021-03-16 23:53:06,052 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-16 23:53:06,053 - DEBUG - Switch to new keys ...
+2021-03-16 23:53:06,055 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-16 23:53:06,057 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-16 23:53:06,093 - DEBUG - userauth is OK
+2021-03-16 23:53:06,129 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-16 23:53:06,130 - INFO - Authentication (publickey) successful!
+2021-03-16 23:53:06,131 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-16 23:53:06,292 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-16 23:53:06,293 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-16 23:53:06,336 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-16 23:53:06,336 - DEBUG - Secsh channel 0 opened.
+2021-03-16 23:53:06,342 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-16 23:53:10,917 - DEBUG - [chan 0] EOF received (0)
+2021-03-16 23:53:10,918 - DEBUG - [chan 0] EOF sent (0)
+2021-03-16 23:53:10,919 - WARNING - 
+2021-03-16 23:53:10,920 - WARNING - End Execution...
+2021-03-16 23:53:10,920 - WARNING - 
+2021-03-17 00:16:16,859 - WARNING - 
+Initializing Execution...
+
+2021-03-17 00:16:16,862 - DEBUG - starting thread (client mode): 0xcb32f4f0
+2021-03-17 00:16:16,862 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-17 00:16:16,944 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-17 00:16:16,945 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-17 00:16:16,951 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-17 00:16:16,951 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-17 00:16:16,952 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-17 00:16:16,953 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-17 00:16:16,953 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-17 00:16:16,954 - DEBUG - Compression agreed: none
+2021-03-17 00:16:16,960 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-17 00:16:16,961 - DEBUG - Switch to new keys ...
+2021-03-17 00:16:16,962 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-17 00:16:16,963 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-17 00:16:17,002 - DEBUG - userauth is OK
+2021-03-17 00:16:17,039 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-17 00:16:17,040 - INFO - Authentication (publickey) successful!
+2021-03-17 00:16:17,043 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-17 00:16:17,269 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-17 00:16:17,269 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-17 00:16:17,269 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-17 00:16:17,269 - DEBUG - Secsh channel 0 opened.
+2021-03-17 00:16:17,275 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-17 00:16:22,750 - DEBUG - [chan 0] EOF received (0)
+2021-03-17 00:16:22,751 - DEBUG - [chan 0] EOF sent (0)
+2021-03-17 00:16:22,753 - DEBUG - Total Alerts: 64
+2021-03-17 00:16:22,754 - DEBUG - starting thread (client mode): 0xcb32f520
+2021-03-17 00:16:22,755 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-17 00:16:22,841 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-17 00:16:22,841 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-17 00:16:22,843 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-17 00:16:22,844 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-17 00:16:22,844 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-17 00:16:22,844 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-17 00:16:22,844 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-17 00:16:22,845 - DEBUG - Compression agreed: none
+2021-03-17 00:16:22,850 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-17 00:16:22,851 - DEBUG - Switch to new keys ...
+2021-03-17 00:16:22,852 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-17 00:16:22,853 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-17 00:16:22,890 - DEBUG - userauth is OK
+2021-03-17 00:16:22,912 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-17 00:16:22,912 - INFO - Authentication (publickey) successful!
+2021-03-17 00:16:22,912 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-17 00:16:23,106 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-17 00:16:23,107 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-17 00:16:23,148 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-17 00:16:23,148 - DEBUG - Secsh channel 0 opened.
+2021-03-17 00:16:23,155 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-17 00:16:28,270 - DEBUG - [chan 0] EOF received (0)
+2021-03-17 00:16:28,271 - DEBUG - [chan 0] EOF sent (0)
+2021-03-17 00:16:28,274 - WARNING - 
+End Execution...
+
+2021-03-17 00:17:00,405 - WARNING - 
+
+                Initializing Execution...
+
+
+2021-03-17 00:17:00,408 - DEBUG - starting thread (client mode): 0x905f34f0
+2021-03-17 00:17:00,408 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-17 00:17:00,497 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-17 00:17:00,498 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-17 00:17:00,504 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-17 00:17:00,504 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-17 00:17:00,506 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-17 00:17:00,507 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-17 00:17:00,507 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-17 00:17:00,508 - DEBUG - Compression agreed: none
+2021-03-17 00:17:00,525 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-17 00:17:00,527 - DEBUG - Switch to new keys ...
+2021-03-17 00:17:00,530 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-17 00:17:00,534 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-17 00:17:00,568 - DEBUG - userauth is OK
+2021-03-17 00:17:00,603 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-17 00:17:00,604 - INFO - Authentication (publickey) successful!
+2021-03-17 00:17:00,606 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-17 00:17:00,807 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-17 00:17:00,808 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-17 00:17:00,808 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-17 00:17:00,808 - DEBUG - Secsh channel 0 opened.
+2021-03-17 00:17:00,813 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-17 00:17:05,871 - DEBUG - [chan 0] EOF received (0)
+2021-03-17 00:17:05,872 - DEBUG - [chan 0] EOF sent (0)
+2021-03-17 00:17:05,874 - DEBUG - Total Alerts: 64
+2021-03-17 00:17:05,877 - DEBUG - starting thread (client mode): 0x905872b0
+2021-03-17 00:17:05,877 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-17 00:17:05,969 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-17 00:17:05,970 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-17 00:17:05,974 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-17 00:17:05,975 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-17 00:17:05,975 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-17 00:17:05,975 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-17 00:17:05,976 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-17 00:17:05,977 - DEBUG - Compression agreed: none
+2021-03-17 00:17:05,983 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-17 00:17:05,983 - DEBUG - Switch to new keys ...
+2021-03-17 00:17:05,984 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-17 00:17:05,985 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-17 00:17:06,023 - DEBUG - userauth is OK
+2021-03-17 00:17:06,045 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-17 00:17:06,046 - INFO - Authentication (publickey) successful!
+2021-03-17 00:17:06,046 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-17 00:17:06,224 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-17 00:17:06,225 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-17 00:17:06,268 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-17 00:17:06,268 - DEBUG - Secsh channel 0 opened.
+2021-03-17 00:17:06,275 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-17 00:17:11,167 - DEBUG - [chan 0] EOF received (0)
+2021-03-17 00:17:11,167 - DEBUG - [chan 0] EOF sent (0)
+2021-03-17 00:17:11,170 - WARNING - 
+
+End Execution...
+
+
+2021-03-17 00:17:46,431 - WARNING - 
+
+                          Initializing Execution...
+
+
+2021-03-17 00:17:46,434 - DEBUG - starting thread (client mode): 0xe1d2f4f0
+2021-03-17 00:17:46,434 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-17 00:17:46,509 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-17 00:17:46,509 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-17 00:17:46,511 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-17 00:17:46,511 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-17 00:17:46,511 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-17 00:17:46,511 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-17 00:17:46,512 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-17 00:17:46,512 - DEBUG - Compression agreed: none
+2021-03-17 00:17:46,519 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-17 00:17:46,519 - DEBUG - Switch to new keys ...
+2021-03-17 00:17:46,520 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-17 00:17:46,522 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-17 00:17:46,559 - DEBUG - userauth is OK
+2021-03-17 00:17:46,578 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-17 00:17:46,579 - INFO - Authentication (publickey) successful!
+2021-03-17 00:17:46,580 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-17 00:17:46,790 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-17 00:17:46,791 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-17 00:17:46,832 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-17 00:17:46,833 - DEBUG - Secsh channel 0 opened.
+2021-03-17 00:17:46,839 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-17 00:17:51,819 - DEBUG - [chan 0] EOF received (0)
+2021-03-17 00:17:51,819 - DEBUG - [chan 0] EOF sent (0)
+2021-03-17 00:17:51,821 - DEBUG - Total Alerts: 64
+2021-03-17 00:17:51,823 - DEBUG - starting thread (client mode): 0xe1d2fc10
+2021-03-17 00:17:51,823 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-17 00:17:51,905 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-17 00:17:51,906 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-17 00:17:51,909 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-17 00:17:51,910 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-17 00:17:51,910 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-17 00:17:51,911 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-17 00:17:51,912 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-17 00:17:51,912 - DEBUG - Compression agreed: none
+2021-03-17 00:17:51,919 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-17 00:17:51,919 - DEBUG - Switch to new keys ...
+2021-03-17 00:17:51,920 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-17 00:17:51,921 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-17 00:17:51,959 - DEBUG - userauth is OK
+2021-03-17 00:17:51,980 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-17 00:17:51,980 - INFO - Authentication (publickey) successful!
+2021-03-17 00:17:51,981 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-17 00:17:52,161 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-17 00:17:52,161 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-17 00:17:52,203 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-17 00:17:52,204 - DEBUG - Secsh channel 0 opened.
+2021-03-17 00:17:52,209 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-17 00:17:57,264 - DEBUG - [chan 0] EOF received (0)
+2021-03-17 00:17:57,264 - DEBUG - [chan 0] EOF sent (0)
+2021-03-17 00:17:57,269 - WARNING - 
+
+                          End Execution...
+
+
+2021-03-17 00:18:23,514 - WARNING - 
+
+                                    Initializing Execution...
+
+
+2021-03-17 00:18:23,518 - DEBUG - starting thread (client mode): 0x776f4f0
+2021-03-17 00:18:23,518 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-17 00:18:23,609 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-17 00:18:23,610 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-17 00:18:23,615 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-17 00:18:23,616 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-17 00:18:23,617 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-17 00:18:23,617 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-17 00:18:23,617 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-17 00:18:23,618 - DEBUG - Compression agreed: none
+2021-03-17 00:18:23,635 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-17 00:18:23,638 - DEBUG - Switch to new keys ...
+2021-03-17 00:18:23,640 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-17 00:18:23,645 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-17 00:18:23,678 - DEBUG - userauth is OK
+2021-03-17 00:18:23,719 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-17 00:18:23,720 - INFO - Authentication (publickey) successful!
+2021-03-17 00:18:23,723 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-17 00:18:23,945 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-17 00:18:23,945 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-17 00:18:23,987 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-17 00:18:23,987 - DEBUG - Secsh channel 0 opened.
+2021-03-17 00:18:23,996 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-17 00:18:29,009 - DEBUG - [chan 0] EOF received (0)
+2021-03-17 00:18:29,010 - DEBUG - [chan 0] EOF sent (0)
+2021-03-17 00:18:29,015 - DEBUG - Total Alerts: 64
+2021-03-17 00:18:29,019 - DEBUG - starting thread (client mode): 0x776f430
+2021-03-17 00:18:29,020 - DEBUG - Local version/idstring: SSH-2.0-paramiko_2.6.0
+2021-03-17 00:18:29,104 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2021-03-17 00:18:29,105 - INFO - Connected (version 2.0, client OpenSSH_7.4)
+2021-03-17 00:18:29,109 - DEBUG - kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp521'] client encrypt:['aes256-ctr'] server encrypt:['aes256-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2021-03-17 00:18:29,110 - DEBUG - Kex agreed: ecdh-sha2-nistp256
+2021-03-17 00:18:29,110 - DEBUG - HostKey agreed: ecdsa-sha2-nistp521
+2021-03-17 00:18:29,111 - DEBUG - Cipher agreed: aes256-ctr
+2021-03-17 00:18:29,111 - DEBUG - MAC agreed: hmac-sha2-256
+2021-03-17 00:18:29,112 - DEBUG - Compression agreed: none
+2021-03-17 00:18:29,124 - DEBUG - kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2021-03-17 00:18:29,125 - DEBUG - Switch to new keys ...
+2021-03-17 00:18:29,127 - DEBUG - Adding ecdsa-sha2-nistp521 host key for 192.168.20.11: b'31a80c96474d2b947e606f5b6673357d'
+2021-03-17 00:18:29,129 - DEBUG - Trying discovered key b'c2a6d1b844d2161e19ddda96f0539b19' in /home/adrianocortes/.ssh/id_rsa
+2021-03-17 00:18:29,166 - DEBUG - userauth is OK
+2021-03-17 00:18:29,202 - INFO - Auth banner: b'Nutanix Controller VM\n'
+2021-03-17 00:18:29,203 - INFO - Authentication (publickey) successful!
+2021-03-17 00:18:29,204 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2021-03-17 00:18:29,388 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2021-03-17 00:18:29,388 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2021-03-17 00:18:29,431 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2021-03-17 00:18:29,432 - DEBUG - Secsh channel 0 opened.
+2021-03-17 00:18:29,437 - DEBUG - [chan 0] Sesch channel 0 request ok
+2021-03-17 00:18:34,185 - DEBUG - [chan 0] EOF received (0)
+2021-03-17 00:18:34,186 - DEBUG - [chan 0] EOF sent (0)
+2021-03-17 00:18:34,190 - WARNING - 
+
+                                    End Execution...
+
+
+2021-03-17 02:55:57,440 - WARNING - 
+
+                                    Initializing Execution...
+
+
+2021-03-17 02:56:40,737 - WARNING - 
+
+                                    Initializing Execution...
+
+
