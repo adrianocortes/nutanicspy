@@ -9,7 +9,7 @@ import os
 
 ## Just for Default parameters in Debug Mode
 INDEVELOPMENT=True
-gDebugLevel = logging.INFO
+gDebugLevel = logging.ERROR
 
 
 
@@ -119,8 +119,8 @@ def execSSHCommand( pCommand, pHost, pUser, pPort, pPassword="" ):
       ssh.connect( pHost, pPort, pUser )
 
     stdin, stdout, stderr = ssh.exec_command( pCommand )
-    return stdout.readlines()
 
+    return stdout.readlines()
   except Exception as ve:
     rootLogger.error( 'Error in execSSH: "{0}"!'.format( ve ) )
 
@@ -132,12 +132,12 @@ def removeAlert( pAlertID ):
     
   try:
 
-    lCommand = "ncli alerts resolve ids='{0}'".format( pAlertID )
+    lCommand = "/home/nutanix/prism/cli/ncli alerts resolve ids='{0}'".format( pAlertID )
     
 
     return_mount = execSSHCommand( lCommand, gCVMHost, gCVMUser, gCVMPort )
 
-    lCommand = "ncli alerts ack ids='{0}'".format( pAlertID )
+    lCommand = "/home/nutanix/prism/cli/ncli alerts ack ids='{0}'".format( pAlertID )
 
     return_mount = execSSHCommand( lCommand, gCVMHost, gCVMUser, gCVMPort )
     
@@ -155,7 +155,7 @@ def removeAlert( pAlertID ):
 #######################################################
 def getAlertsNgt():
   try:
-    getAlertsCmd = "ncli alerts ls"
+    getAlertsCmd = "/home/nutanix/prism/cli/ncli alerts ls"
 
     # TODO: Treatment for Password ask or use from parameters
     lines_alerts = execSSHCommand( getAlertsCmd, gCVMHost, gCVMUser, gCVMPort )
@@ -164,7 +164,7 @@ def getAlertsNgt():
     alertsArr = []
     for lines in lines_alerts:
       # If empty line, save register, if exists
-      if lines == "\n":
+      if ( lines == "\n" ) or (lines == "\r\n"):
         if alert != {}:
           if alert["Title"] == "NGT Update Available":
             # Just get if it's for NGT Updates
@@ -194,7 +194,7 @@ def getVMData( vmID="", vmName="" ):
       raise Exception('InvalVMId getVMData call: vmID and vmName is blank !')
 
 
-    lCommand = "ncli vm ls"
+    lCommand = "/home/nutanix/prism/cli/ncli vm ls"
     if vmID:
       lCommand += " id='{0}'".format( vmID ) 
 
@@ -222,7 +222,7 @@ def getVMData( vmID="", vmName="" ):
     return vmData
 
   except Exception as ve:
-    rootLogger.error( 'Error in getAlertsNGT: {0}!'.format( ve ) )
+    rootLogger.error( 'Error in getVMData: {0}!'.format( ve ) )
 
 
 
@@ -244,7 +244,7 @@ def mountNGT( pVMId, pAction=cactMOUNT ):
 
 
     
-    lCommand = "ncli ngt {0} vm-id='{1}'".format( ("mount" if pAction == cactMOUNT else "unmount" ), pVMId )
+    lCommand = "/home/nutanix/prism/cli/ncli ngt {0} vm-id='{1}'".format( ("mount" if pAction == cactMOUNT else "unmount" ), pVMId )
     
 
     return_mount = execSSHCommand( lCommand, gCVMHost, gCVMUser, gCVMPort )
@@ -351,14 +351,16 @@ def updateAllNGT( stopToConfirm=False ):
     try:
       
       lVMId = alert['Entities On'][3:]
+      
+      lVMName = alert['Message'].split(" ")[8]
       lAlertId = alert['ID']
 
-      vmData = getVMData( vmID=lVMId )
+      vmData = getVMData( vmName=lVMName )
       rootLogger.debug( 'VM Data' )
 
       rootLogger.info( "**************************************************" )
       rootLogger.info( "VM ID: {0}".format( lVMId) )
-      rootLogger.info( "VM Name: {0}".format( vmData['Name'] ) )
+      rootLogger.info( "VM Name: {0}".format( lVMName ) )
 
       lIP = vmData['VM IP Addresses'].split(",")[0].strip()
 
@@ -369,6 +371,7 @@ def updateAllNGT( stopToConfirm=False ):
       
 
       installed = False
+
       if mountNGT( lVMId, cactMOUNT ):
 
         if mountCDDevice( lIP, cactMOUNT ):
